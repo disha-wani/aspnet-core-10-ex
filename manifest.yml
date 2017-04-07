@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1G
+  env:
+    CACHE_NUGET_PACKAGES: false
+    listen_here: ENV['PORT']
+  instances: 1
+  domain: mybluemix.net
+  name: disha-app
+  host: disha-app
+  disk_quota: 1024M
