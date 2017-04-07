@@ -17,7 +17,7 @@
             "Space": "disha",
             "Url": "https://api.ng.bluemix.net"
         },
-        "Timeout": 60
+        "Timeout": 100
     },
     "Path": "",
     "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
